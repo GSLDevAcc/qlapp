@@ -104,13 +104,13 @@ export default function DashboardPage() {
           <div className="p-6 border-b border-gray-200">
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-xl font-semibold">Audit Projects</h2>
-              <Button 
+              {/* <Button 
                 className="flex items-center space-x-2"
                 onClick={() => setIsNewProjectModalOpen(true)}
               >
                 <Plus className="h-4 w-4" />
                 <span>New Audit</span>
-              </Button>
+              </Button> */}
             </div>
             
             <ProjectFilters
