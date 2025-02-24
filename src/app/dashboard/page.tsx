@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import { Plus, ClipboardList, Calendar, Building, Search } from 'lucide-react'
+import {  ClipboardList, Calendar, Building, Search } from 'lucide-react' //Plus,
 import Link from 'next/link'
 import { NewProjectModal } from '@/components/projects/new-project-modal'
 import { ProjectFilters } from '@/components/projects/project-filters'
